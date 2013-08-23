@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="bin-test\SystemBridge20To35.Tests.dll" total="618" failures="0" not-run="0" date="2013-08-23" time="15:15:12">
+  <environment nunit-version="2.4.8.0" clr-version="2.0.50727.5472" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="d:\Projects\SystemBridge20To35" machine-name="AWALISZEWSKI-AR" user="Arsil" user-domain="AWALISZEWSKI-AR" />
+  <culture-info current-culture="pl-PL" current-uiculture="pl-PL" />
+  <test-suite name="bin-test\SystemBridge20To35.Tests.dll" success="True" time="3.130" asserts="0">
+    <results>
+      <test-suite name="LinqBridge" success="True" time="0.740" asserts="0">
+        <results>
+          <test-suite name="Tests" success="True" time="0.720" asserts="0">
+            <results>
+              <test-suite name="EnumerableFixture" success="True" time="0.710" asserts="0">
+                <results>
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Aggregate_AddFuncOnIntegers_ReturnsTotal" executed="True" success="True" time="0.020" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Aggregate_AddFuncOnIntegersWithSeed_ReturnsTotal" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Aggregate_EmptySource_ThrowsInvalidOperationException" executed="True" success="True" time="0.010" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Aggregate_NullFunc_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Aggregate_NullSource_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.All_NullSource_ThrowsArgumentNullException" executed="True" success="True" time="0.010" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.All_SomeSourceElementsNotSatifyingPredicate_ReturnsFalse" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.All_SourceElementsSatisfyingPredicate_ReturnsTrue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Any_EmptySource_ReturnsFalse" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Any_NonEmptySource_ReturnsTrue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Any_NullSource_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Any_PredicateArg_EmptySource_ReturnsFalse" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Any_PredicateArg_NonEmptySource_ReturnsTrue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.AsEnumerable_NonNullSource_ReturnsSourceReference" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.AsEnumerable_NullSource_ReturnsNull" executed="True" success="True" time="0.010" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_Decimals_ReturnsAverage" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_Doubles_ReturnsAverage" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_EmptyDecimalSource_ThrowsInvalidOperationException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_EmptyDoubleSource_ThrowsInvalidOperationException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_EmptyFloatSource_ThrowsInvalidOperationException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_EmptyLongSource_ThrowsInvalidOperationException" executed="True" success="True" time="0.010" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_EmptyNullableDecimalSource_Null" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_EmptyNullableDoubleSource_Null" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_EmptyNullableFloatSource_Null" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_EmptyNullableIntegerSource_Null" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_EmptyNullableIntegerSource_ReturnsNull" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_EmptyNullableLongSource_Null" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_EmptySource_ThrowsInvalidOperationException" executed="True" success="True" time="0.010" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_Floats_ReturnsAverage" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_Longs_ReturnsAverage" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_NullableDecimalsWithSomeNulls_ReturnsAverage" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_NullableDoublesWithSomeNulls_ReturnsAverage" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_NullableFloatsWithSomeNulls_ReturnsAverage" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_NullableIntegersWithSomeNull_ReturnsAverage" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_NullableLongsWithSomeNull_ReturnsAverage" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_SelectorArg_Decimals_ReturnsAverage" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_SelectorArg_Doubles_ReturnsAverage" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_SelectorArg_Floats_ReturnsAverage" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_SelectorArg_Integers_ReturnsAverage" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_SelectorArg_Longs_ReturnsAverage" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_SelectorArg_NullableDecimalsWithSomeNulls_ReturnsAverage" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_SelectorArg_NullableDoublesWithSomeNulls_ReturnsAverage" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_SelectorArg_NullableFloatsWithSomeNulls_ReturnsAverage" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_SelectorArg_NullableIntegersWithSomeNull_ReturnsAverage" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Average_SelectorArg_NullableLongsWithSomeNull_ReturnsAverage" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Cast_Integers_YieldsUpcastedObjects" executed="True" success="True" time="0.000" asserts="5" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Cast_InvalidSource_ThrowsInvalidCastException" executed="True" success="True" time="0.010" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Cast_NullSource_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Cast_ObjectSourceContainingIntegers_YieldsDowncastedIntegers" executed="True" success="True" time="0.000" asserts="5" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Concat_FirstSourceNull_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Concat_SecondSourceNull_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Concat_TwoSequences_CombinedSequenceWhereElementsOfSecondFollowFirst" executed="True" success="True" time="0.010" asserts="9" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Contains_CollectionOptimization_ReturnsTrueWithoutEnumerating" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Contains_SequenceContainingSoughtValue_ReturnsTrue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Contains_SequenceWithoutSoughtValue_ReturnsFalse" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Count_Integers_ReturnsNumberOfElements" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Count_PredicateArg_Strings_CountsOnlyStringsWithEvenLength" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.DefaultIfEmpty_DefaultValueArg_EmptyIntegerSequenceAndNonZeroDefault_ReturnNonZeroDefault" executed="True" success="True" time="0.000" asserts="3" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.DefaultIfEmpty_DefaultValueArg_Integers_YieldsIntegersInOrder" executed="True" success="True" time="0.000" asserts="5" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.DefaultIfEmpty_EmptyIntegerSequence_ReturnsZero" executed="True" success="True" time="0.000" asserts="3" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.DefaultIfEmpty_Integers_YieldsIntegersInOrder" executed="True" success="True" time="0.000" asserts="5" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Distinct_IntegersWithSomeDuplicates_YieldsIntegersInSourceOrderWithoutDuplicates" executed="True" success="True" time="0.010" asserts="7" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Distinct_MixedCaseStringsWithCaseIgnoringComparer_YieldsFirstCaseOfEachDistinctStringInSourceOrder" executed="True" success="True" time="0.000" asserts="5" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Distinct_NullSource_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Distinct_StringArrayWithOneNull_YieldsSet" description="See http://code.google.com/p/linqbridge/issues/detail?id=13" executed="True" success="True" time="0.000" asserts="3" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Distinct_StringArrayWithSeveralNull_YieldsSet" description="See http://code.google.com/p/linqbridge/issues/detail?id=17" executed="True" success="True" time="0.000" asserts="3" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ElementAt_IndexOutOfRange_ThrowsArgumentOutOfRangeException" executed="True" success="True" time="0.010" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ElementAt_Integers_ReturnsValueAtGivenIndex" executed="True" success="True" time="0.000" asserts="6" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ElementAt_ListOptimization_ReturnsValueAtGivenIndex" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ElementAt_NegativeIndex_ThrowsArgumentOutOfRangeException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ElementAtOrDefault_BooleansAndNegativeIndex_ReturnsDefault" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ElementAtOrDefault_Integers_ReturnsValueAtGivenIndex" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ElementAtOrDefault_IntegersWithOutOfRangeIndex_ReturnsDefault" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ElementAtOrDefault_ListOptimization_ReturnsValueAtGivenIndex" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ElementAtOrDefault_Objects_ReturnsValueAtGivenIndex" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ElementAtOrDefault_ObjectsWithOutOfRangeIndex_ReturnsNull" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Empty_YieldsEmptySource" executed="True" success="True" time="0.010" asserts="3" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Except_SecondArg_ArgumentNull_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Except_SecondArg_ValidArgument_ReturnsDifference" executed="True" success="True" time="0.030" asserts="8" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Except_SecondArgComparerArg_ComparerIsUsed" executed="True" success="True" time="0.020" asserts="5" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.First_EmptySource_ThrowsInvalidOperationException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.First_IntegerListOptimization_ReturnsFirstElementWithoutEnumerating" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.First_Integers_ReturnsFirst" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.First_IntegerSequenceWithNoneMatchingPredicate_ThrowsInvalidOperationException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.First_IntegersWithPredicateForEvens_FirstEvenInteger" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.FirstOrDefault_EmptyBooleanSource_ReturnsFalse" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.FirstOrDefault_Objects_ReturnsFirstReference" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.FirstOrDefault_PredicateArg_IntegerSequenceWithNonMatchingPredicate_ReturnsDefaultValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.FirstOrDefault_PredicateArg_NonNullPredicate_ReturnsFirstMatchingItem" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.FirstOrDefault_PredicateArg_NullPredicate_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.GroupBy_KeySelectorArg_NullAsKeySelector_ThrowsArgumentNullException" executed="True" success="True" time="0.010" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.GroupBy_KeySelectorArg_ValidArguments_CorrectCaseSensitiveGrouping" executed="True" success="True" time="0.010" asserts="10" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.GroupBy_KeySelectorArg_ValidArguments_CorrectGrouping" executed="True" success="True" time="0.010" asserts="8" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.GroupBy_KeySelectorArgComparerArg_KeysThatDifferInCasingNonCaseSensitiveStringComparer_CorrectGrouping" executed="True" success="True" time="0.000" asserts="8" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.GroupBy_KeySelectorArgElementSelectorArg_ValidArguments_CorrectGroupingAndProjection" executed="True" success="True" time="0.010" asserts="7" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.GroupBy_KeySelectorArgElementSelectorArgComparerArg_ValidArguments_CorrectGroupingAndProcessing" executed="True" success="True" time="0.000" asserts="7" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.GroupBy_KeySelectorArgElementSelectorArgResultSelectorArg_ValidArguments_CorrectGroupingAndTransforming" executed="True" success="True" time="0.000" asserts="4" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.GroupBy_KeySelectorArgElementSelectorArgResultSelectorArgComparerArg_ValidArguments_CorrectGroupingAndTransforming" executed="True" success="True" time="0.010" asserts="4" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.GroupBy_KeySelectorArgResultSelectorArg_ValidArguments_CorrectGroupingProcessing" executed="True" success="True" time="0.000" asserts="4" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.GroupBy_KeySelectorArgResultSelectorArgComparerArg_ValidArguments_CorrectGroupingAndTransforming" executed="True" success="True" time="0.000" asserts="4" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.GroupBy_NullKey" description="http://code.google.com/p/linqbridge/issues/detail?id=21" executed="True" success="True" time="0.000" asserts="11" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.GroupJoin_InnerArgOuterKeySelectorArgInnerKeySelectorArgResultSelectorArg_NullOuterKeySelector_ThrowsArgumentNullException" executed="True" success="True" time="0.010" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.GroupJoin_InnerArgOuterKeySelectorArgInnerKeySelectorArgResultSelectorArg_ValidArguments_CorrectGroupingAndJoining" executed="True" success="True" time="0.000" asserts="15" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.GroupJoin_InnerArgOuterKeySelectorArgInnerKeySelectorArgResultSelectorArgComparerArg_ValidArguments_CorrectGroupingAndJoining" executed="True" success="True" time="0.000" asserts="15" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Intersect_IntegerSources_YieldsCommonSet" executed="True" success="True" time="0.010" asserts="5" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Intersect_MixedStringsAndCaseInsensitiveComparer_YieldsCommonSetFromFirstSource" executed="True" success="True" time="0.000" asserts="5" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Intersect_NullSecondSource_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Join_InnerArgOuterKeySelectorArgInnerKeySelectorArgResultSelectorArg_PassingPetsAndOwners_PetsAreCorrectlyAssignedToOwners" executed="True" success="True" time="0.010" asserts="14" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Join_InnerArgOuterKeySelectorArgInnerKeySelectorArgResultSelectorArg_PassNullAsArgument_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Join_InnerArgOuterKeySelectorArgInnerKeySelectorArgResultSelectorArgComparerArg_PetOwnersNamesCasingIsInconsistent_CaseInsensitiveJoinIsPerformed" executed="True" success="True" time="0.000" asserts="14" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Last_EmptyIntegerListOptimization_ThrowsInvalidOperationException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Last_IntegerListOptimization_ReturnsLastElementWithoutEnumerating" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Last_Integers_ReturnsLastElement" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Last_PredicateArg_ListOfInts_ReturnsLastMatchingElement" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Last_PredicateArg_NoMatchingElement_ThrowsInvalidOperationException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Last_PredicateArg_NullAsPredicate_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.LastOrDefault_EmptySource_ReturnsZero" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.LastOrDefault_NonEmptyList_ReturnsLastElement" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.LastOrDefault_PredicateArg_NoMatchingElement_ReturnsZero" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.LastOrDefault_PredicateArg_ValidArguments_RetunsLastMatchingElement" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.LongCount_PredicateArg_NullAsPredicate_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.LongCount_PredicateArg_ValidArguments_ReturnsCorrectNumerOfMatchingElements" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.LongCount_ValidArgument_ReturnsCorrectNumberOfElements" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_EmptyList_ThrowsInvalidOperationException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_EmptyNullableIntegerArray_ReturnsNull" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_Integers_ReturnsMaxValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_ListWithNullableType_ReturnsMaximum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_NullableDecimals_ReturnsMaxValue" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_NullableDecimalsWithSelector_ReturnsMaxValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_NullableDoubles_ReturnsMaxValue" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_NullableDoublesWithSelector_ReturnsMaxValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_NullableFloats_ReturnsMaxValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_NullableFloatsWithSelector_ReturnsMaxValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_NullableIntegerArrayWithNullsOnly_ReturnsNull" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_NullableIntsWithSelector_ReturnsMaxValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_NullableList_ReturnsMaxNonNullValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_NullableLongs_ReturnsMaxValue" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_NullableLongsWithSelector_ReturnsMaxValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Max_SelectorArg_ListOfObjects_ReturnsMaxSelectedValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_Chars_ReturnsMinimumBySortOrder" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_EmptyList_ThrowsInvalidOperationException" executed="True" success="True" time="0.010" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_EmptyStringSequence_ReturnsNull" description="http://code.google.com/p/linqbridge/issues/detail?id=19" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_IntegersWithSomeNull_ReturnsMinimumNonNullValue" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_NonNullAndNullString_ReturnsNull" description="http://code.google.com/p/linqbridge/issues/detail?id=19" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_NullableDecimals_ReturnsMinimumNonNullValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_NullableDecimalsWithSelector_ReturnsMinimumNonNullValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_NullableDoubles_ReturnsMinimumNonNullValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_NullableDoublesWithSelector_ReturnsMinimumNonNullValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_NullableFloats_ReturnsMinimumNonNullValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_NullableFloatsWithSelector_ReturnsMinimumNonNullValue" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_NullableIntsWithSelector_ReturnsMinimumNonNullValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_NullableLongs_ReturnsMinimumNonNullValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_NullableLongsWithSelector_ReturnsMinimumNonNullValue" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_StringsWithLengthSelector_ReturnsMinimumNonNullStringLength" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Min_StringsWithSelector_ReturnsMinimum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.OfType_EnumerableWithElementsOfDifferentTypes_OnlyDecimalsAreReturned" executed="True" success="True" time="0.010" asserts="3" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Operators_AsExtensionMethods" executed="True" success="True" time="0.010" asserts="151" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.OrderBy_KeySelector_ArrayOfPersons_PersonsAreOrderedByAge" executed="True" success="True" time="0.020" asserts="6" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.OrderBy_KeySelector_DataWithDuplicateKeys_YieldsStablySortedData" executed="True" success="True" time="0.000" asserts="12" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.OrderBy_KeySelectorArg_NullAsKeySelector_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.OrderBy_KeySelectorArgComparerArg_ArrayOfPersonsAndReversecomparer_PersonsAreOrderedByAgeUsingReversecomparer" executed="True" success="True" time="0.000" asserts="6" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.OrderByDescending_KeySelectorArg_ArrayOfPersons_PersonsAreOrderedByAgeDescending" executed="True" success="True" time="0.010" asserts="6" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Range_NegativeCount_ThrowsArgumentOutOfRangeException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Range_ProduceRangeThatLeadsToOverflow_ThrowsArgumentOutOfRangeException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Range_Start10Count5_IntsFrom10To14" executed="True" success="True" time="0.000" asserts="6" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Repeat_PassNegativeCount_ThrowsArgumentOutOfRangeException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Repeat_StringArgumentCount2_ReturnValueContainsStringArgumentTwice" executed="True" success="True" time="0.000" asserts="3" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Reverse_SeriesOfInts_IntsAreCorrectlyReversed" executed="True" success="True" time="0.010" asserts="7" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Select_ArrayOfPersons_AgeOfPersonsIsSelectedAccordingToPassedLambdaExpression" executed="True" success="True" time="0.000" asserts="6" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Select_SelectorArg_LambdaThatTakesIndexAsArgument_ReturnValueContainsElementsMultipliedByIndex" executed="True" success="True" time="0.000" asserts="6" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SelectMany_CollectionSelectorArgResultSelectorArg_ArrayOfPetOwner_ResultContainsElementForEachPetAPetOwnerHas" executed="True" success="True" time="0.000" asserts="9" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SelectMany_Selector3Arg_ArrayOfPetOwners_SelectorUsesElementIndexArgument" executed="True" success="True" time="0.010" asserts="9" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SelectMany_SelectorArg_ArrayOfPersons_ReturnsASequenceWithAllLettersOfFirstnames" executed="True" success="True" time="0.000" asserts="25" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SequenceEqual_DifferentSequences_ReturnsFalse" executed="True" success="True" time="0.000" asserts="3" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SequenceEqual_EqualSequences_ReturnsTrue" executed="True" success="True" time="0.000" asserts="3" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SequenceEqual_FloatsWithTolerantComparer_ComparerIsUsed" executed="True" success="True" time="0.010" asserts="3" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SequenceEqual_LongerSecondSequence_ReturnsFalse" executed="True" success="True" time="0.000" asserts="3" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SequenceEqual_NullFirstSequence_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SequenceEqual_NullSecondSequence_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SequenceEqual_ShorterSecondSequence_ReturnsFalse" executed="True" success="True" time="0.000" asserts="3" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Single_EmptySource_ThrowsInvalidOperationException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Single_PredicateArg_ArrayOfIntWithOnlyOneElementSatisfyingCondition_ReturnsOnlyThisElement" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Single_PredicateArg_MoreThanOneElementSatisfiedCondition_ThrowsInvalidOperationException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Single_PredicateArg_NoElementSatisfiesCondition_ThrowsInvalidOperationException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Single_PredicateArg_PassNullAsPredicate_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Single_PredicateArg_SourceIsEmpty_ThrowsInvalidOperationException" executed="True" success="True" time="0.010" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Single_SourceWithMoreThanOneElement_ThrowsInvalidOperationException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Single_SourceWithOneElement_ReturnsSingleElement" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SingleOrDefault_EmptySource_ReturnsZero" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SingleOrDefault_MoreThanOneElementInSource_ThrowsInvalidOperationException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SingleOrDefault_PredicateArg_EmptySource_ReturnsZero" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SingleOrDefault_PredicateArg_MoreThanOneElementSatisfiesCondition_ThrowsInvalidOperationException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SingleOrDefault_PredicateArg_NoElementSatisfiesCondition_ReturnsZero" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SingleOrDefault_PredicateArg_OneElementSatisfiesCondition_ReturnsCorrectElement" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SingleOrDefault_PredicateArg_PassNullAsPredicate_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SingleOrDefault_SourceWithOneElement_ReturnsSingleElement" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Skip_IntsFromOneToTenAndFifeAsSecondArg_IntsFromSixToTen" executed="True" success="True" time="0.000" asserts="7" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Skip_PassNegativeValueAsCount_SameBehaviorAsMicrosoftImplementation" executed="True" success="True" time="0.000" asserts="7" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SkipWhile_Predicate3Arg_IntsFromOneToNine_ElementsAreSkippedWhileIndexLessThanFive" executed="True" success="True" time="0.000" asserts="6" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SkipWhile_PredicateArg_ArrayOfIntsWithElementsNotSatisfyingConditionAtTheEnd_IntsAtTheEndArePartOfResult" executed="True" success="True" time="0.000" asserts="8" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SkipWhile_PredicateArg_IntsFromOneToFive_ElementsAreSkippedAsLongAsConditionIsSatisfied" executed="True" success="True" time="0.010" asserts="5" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SkipWhile_PredicateArg_PassNullAsPredicate_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.SkipWhile_PredicateArg_PredicateAlwaysTrue_EmptyResult" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_Decimals_ReturnsSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_Doubles_ReturnsSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_Floats_ReturnsSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_IntsFromOneToTen_ResultIsFiftyFive" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_Longs_ReturnsSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_NullableDecimals_ReturnsSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_NullableDoubles_ReturnsSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_NullableFloats_ReturnsSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_NullableIntsAsArguments_ReturnsCorrectSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_NullableLongs_ReturnsSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_SelectorArg_Decimals_ReturnsSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_SelectorArg_Doubles_ReturnsSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_SelectorArg_Floats_ReturnsSum" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_SelectorArg_Longs_ReturnsSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_SelectorArg_NullableDecimalsWithSomeNulls_ReturnsSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_SelectorArg_NullableDoublesWithSomeNulls_ReturnsSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_SelectorArg_NullableFloatsWithSomeNulls_ReturnsSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_SelectorArg_NullableLongsWithSomeNulls_ReturnsSum" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_SelectorArg_StringArray_ResultIsSumOfStringLengths" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_SelectorArgNullableIntegersWithSomeNulls_ReturnsSum" executed="True" success="True" time="0.010" asserts="2" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Sum_SumOfArgumentsCausesOverflow_ThrowsOverflowException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Take_CountBiggerThanList_ReturnsAllElements" executed="True" success="True" time="0.000" asserts="7" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Take_IntsFromOneToSixAndThreeAsCount_IntsFromOneToThreeAreReturned" executed="True" success="True" time="0.000" asserts="5" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.TakeWhile_IntsFromOneToTenAndConditionThatSquareIsSmallerThan50_IntsFromOneToSeven" executed="True" success="True" time="0.000" asserts="9" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.TakeWhile_PassNullAsPredicate_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ThenBy_KeySelector_DataWithDuplicateKeys_YieldsStablySortedData" executed="True" success="True" time="0.010" asserts="8" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ThenBy_NullKeySelector_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ThenBy_NullSource_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ThenByDescending_KeySelectorArgComparerArg_StringArray_CorrectOrdering" executed="True" success="True" time="0.010" asserts="8" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ToArray_IntsFromOneToTen_ResultIsIntArrayContainingAllElements" executed="True" success="True" time="0.000" asserts="13" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ToDictionary_KeySelectorArg_DuplicateKeys_ThrowsArgumentException" executed="True" success="True" time="0.010" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ToDictionary_KeySelectorArg_KeySelectorYieldsNull_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ToDictionary_KeySelectorArg_ValidArguments_ComparerIsUsedForKeysInDictionary" executed="True" success="True" time="0.000" asserts="6" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ToDictionary_KeySelectorArg_ValidArguments_KeySelectorIsUsedForKeysInDictionary" executed="True" success="True" time="0.000" asserts="8" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ToDictionary_KeySelectorArgElementSelectorArg_IntsFromOneToTen_KeySelectorAndElementSelectorAreUsedForDictionaryElements" executed="True" success="True" time="0.010" asserts="21" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ToList_IntsFromOneToTen_ReturnsListOfIntsContainingAllElements" executed="True" success="True" time="0.010" asserts="13" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ToLookup_KeySelectorArg_Strings_StringsByLength" executed="True" success="True" time="0.010" asserts="13" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.ToLookup_KeySelectorArgElementSelectorArg_Strings_ProjecetedStringsByLength" executed="True" success="True" time="0.000" asserts="13" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Union_SecondArg_PassNullAsArgument_ThrowsArgumentNullException" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Union_SecondArg_ValidIntArguments_NoDuplicatesAndInSourceOrder" executed="True" success="True" time="0.000" asserts="12" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Union_SecondArgComparerArg_UpperCaseAndLowerCaseStrings_PassedComparerIsUsed" executed="True" success="True" time="0.000" asserts="9" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Where_IntegersWithEvensPredicate_YieldsEvenIntegers" executed="True" success="True" time="0.000" asserts="4" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Where_NullPredicate_ThrowsArgumentNullException" executed="True" success="True" time="0.010" asserts="1" />
+                  <test-case name="LinqBridge.Tests.EnumerableFixture.Where_StringsWithEvenIndexPredicate_YieldsElementsWithEvenIndex" executed="True" success="True" time="0.000" asserts="4" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite name="MonoTests" success="True" time="2.360" asserts="0">
+        <results>
+          <test-suite name="System" success="True" time="2.350" asserts="0">
+            <results>
+              <test-suite name="Collections" success="True" time="0.080" asserts="0">
+                <results>
+                  <test-suite name="Generic" success="True" time="0.080" asserts="0">
+                    <results>
+                      <test-suite name="HashSetTest" success="True" time="0.080" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.Enumerator_Current" executed="True" success="True" time="0.000" asserts="10" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestAdd" executed="True" success="True" time="0.000" asserts="10" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestClear" executed="True" success="True" time="0.010" asserts="2" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestContains" executed="True" success="True" time="0.000" asserts="6" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestCopyTo" executed="True" success="True" time="0.000" asserts="7">
+                            <categories>
+                              <category name="TargetJvmNotWorking" />
+                            </categories>
+                          </test-case>
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestCopyToEmpty" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestCopyToFull" executed="True" success="True" time="0.000" asserts="6" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestCopyToPrecise" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestEmptyHashSubsetOf" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestExceptWith" executed="True" success="True" time="0.000" asserts="5" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestHashSetEqualityComparer" executed="True" success="True" time="0.010" asserts="10" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestICollection" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestIntersectWith" executed="True" success="True" time="0.000" asserts="4" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestIntersectWithComparer" executed="True" success="True" time="0.010" asserts="5" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestMassiveAdd" executed="True" success="True" time="0.010" asserts="20002" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestMassiveRemove" executed="True" success="True" time="0.010" asserts="10001" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestModifySetWhileForeach" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestNullsWithComparerThrowingException" executed="True" success="True" time="0.000" asserts="29" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestOverlaps" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestProperSubsetOf" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestProperSubsetOfComparer" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestProperSupersetOf" executed="True" success="True" time="0.010" asserts="3" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestProperSupersetOfComparer" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestRemove" executed="True" success="True" time="0.000" asserts="10" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestRemoveWhere" executed="True" success="True" time="0.000" asserts="7" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestSetEquals" executed="True" success="True" time="0.000" asserts="5" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestSetEqualsComparer" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestSubsetOf" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestSubsetOfComparer" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestSupersetOf" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestSupersetOfComparer" executed="True" success="True" time="0.010" asserts="2" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestSymmetricExceptWith" executed="True" success="True" time="0.000" asserts="9" />
+                          <test-case name="MonoTests.System.Collections.Generic.HashSetTest.TestUnionWith" executed="True" success="True" time="0.000" asserts="11" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite name="Threading" success="True" time="0.590" asserts="0">
+                <results>
+                  <test-suite name="ReaderWriterLockSlimTests" success="True" time="0.590" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.DefaultValues" executed="True" success="True" time="0.010" asserts="11" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.Dispose_Errors" executed="True" success="True" time="0.010" asserts="0" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.Dispose_UpgradeableReadLock" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.Dispose_WithReadLock" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.Dispose_WithWriteLock" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.EnterReadLock" executed="True" success="True" time="0.000" asserts="14" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.EnterReadLock_MultiRead" executed="True" success="True" time="0.110" asserts="30" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.EnterReadLock_NoRecursionError" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.EnterUpgradeableReadLock" executed="True" success="True" time="0.000" asserts="21" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.EnterUpgradeableReadLock_NoRecursionError" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.EnterWriteLock" executed="True" success="True" time="0.000" asserts="14" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.EnterWriteLock_After_ExitUpgradeableReadLock" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.EnterWriteLock_MultiRead" executed="True" success="True" time="0.210" asserts="13" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.EnterWriteLock_NoRecursionError" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.ExitReadLock" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.ExitWriteLock" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.RecursiveEnterExitReadTest" executed="True" success="True" time="0.000" asserts="4" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.RecursiveEnterExitUpgradableTest" executed="True" success="True" time="0.000" asserts="4" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.RecursiveEnterExitWriteTest" executed="True" success="True" time="0.000" asserts="4" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.RecursiveReadLockTest" executed="True" success="True" time="0.000" asserts="4" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.RecursiveReadPlusUpgradeableLockTest" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.RecursiveReadPlusWriteLockTest" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.RecursiveReadPropertiesTest" executed="True" success="True" time="0.000" asserts="6" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.RecursiveUpgradeableReadLockTest" executed="True" success="True" time="0.000" asserts="4" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.RecursiveUpgradePropertiesTest" executed="True" success="True" time="0.000" asserts="8" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.RecursiveWriteLockTest" executed="True" success="True" time="0.000" asserts="4" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.RecursiveWritePlusReadLockTest" executed="True" success="True" time="0.000" asserts="11" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.RecursiveWritePropertiesTest" executed="True" success="True" time="0.010" asserts="4" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.RecursiveWriteReadAcquisitionInterleaving" executed="True" success="True" time="0.110" asserts="3" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.RecursiveWriteUpgradeReadTest" executed="True" success="True" time="0.000" asserts="7" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.RecursiveWriteUpgradeTest" executed="True" success="True" time="0.000" asserts="6" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.TryEnterReadLock_OutOfRange" executed="True" success="True" time="0.010" asserts="0" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.TryEnterUpgradeableReadLock_OutOfRange" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.TryEnterWriteLock_OutOfRange" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.Threading.ReaderWriterLockSlimTests.TryEnterWriteLock_WhileReading" executed="True" success="True" time="0.110" asserts="2" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfo_AdjustmentRuleTest+CreateAdjustmentRuleException" success="True" time="0.010" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfo_AdjustmentRuleTest+CreateAdjustmentRuleException.DateIncludesTimeOfDay" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_AdjustmentRuleTest+CreateAdjustmentRuleException.DatesMaxMinValid" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_AdjustmentRuleTest+CreateAdjustmentRuleException.DateTimeKindNotUnspecified" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_AdjustmentRuleTest+CreateAdjustmentRuleException.DeltaNotInSeconds" executed="True" success="True" time="0.010" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_AdjustmentRuleTest+CreateAdjustmentRuleException.DeltaOutOfRange" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_AdjustmentRuleTest+CreateAdjustmentRuleException.EndBeforeStart" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_AdjustmentRuleTest+CreateAdjustmentRuleException.TransitionEndEqualStart" executed="True" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfo_AdjustmentRuleTest+NonExceptional" success="True" time="0.010" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfo_AdjustmentRuleTest+NonExceptional.Serialization_Deserialization" executed="True" success="True" time="0.010" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfo_TransitionTimeTest+CreateFixedDateRuleExceptions" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfo_TransitionTimeTest+CreateFixedDateRuleExceptions.DateHasNonDefaultComponent" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_TransitionTimeTest+CreateFixedDateRuleExceptions.DateNotInMilliSeconds" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_TransitionTimeTest+CreateFixedDateRuleExceptions.DayOutOfRange" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_TransitionTimeTest+CreateFixedDateRuleExceptions.KindNotUnspecified" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_TransitionTimeTest+CreateFixedDateRuleExceptions.MonthOutOfRange" executed="True" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfo_TransitionTimeTest+CreateFloatingDateRuleExceptions" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfo_TransitionTimeTest+CreateFloatingDateRuleExceptions.DateHasNonDefaultComponent" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_TransitionTimeTest+CreateFloatingDateRuleExceptions.DateNotInSeconds" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_TransitionTimeTest+CreateFloatingDateRuleExceptions.DayOfWeekOutOfRange" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_TransitionTimeTest+CreateFloatingDateRuleExceptions.KindNotUnspecified" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_TransitionTimeTest+CreateFloatingDateRuleExceptions.MonthOutOfRange" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_TransitionTimeTest+CreateFloatingDateRuleExceptions.WeekOutOfRange" executed="True" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfo_TransitionTimeTest+NonExceptional" success="True" time="0.010" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfo_TransitionTimeTest+NonExceptional.EqualsObject" executed="True" success="True" time="0.000" asserts="4" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_TransitionTimeTest+NonExceptional.Serialize_Deserialize_FixedDateRule" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="MonoTests.System.TimeZoneInfo_TransitionTimeTest+NonExceptional.Serialize_Deserialize_FloatingDateRule" executed="True" success="True" time="0.010" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfoTest+ConvertTimeTests" success="True" time="0.010" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+ConvertTimeTests.ConvertFromToUtc" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+ConvertTimeTests.ConvertFromUtc_ConvertInSummer" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+ConvertTimeTests.ConvertFromUTC_ConvertInWinter" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+ConvertTimeTests.ConvertFromUtc_DestinationIsUTC" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+ConvertTimeTests.ConvertFromUtc_DestinationTimeZoneIsNullException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+ConvertTimeTests.ConvertFromUtc_KindIsLocalException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+ConvertTimeTests.ConvertToTimeZone" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+ConvertTimeTests.ConvertToUTC_InvalidDate" executed="True" success="True" time="0.010" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+ConvertTimeTests.ConvertToUTC_KindIsLocalButSourceIsNot" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+ConvertTimeTests.ConvertToUTC_KindIsUtc" executed="True" success="True" time="0.000" asserts="2" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+ConvertTimeTests.ConvertToUTC_KindIsUTCButSourceIsNot" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+ConvertTimeTests.ConvertToUTC_SourceIsNull" executed="True" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfoTest+CreateCustomTimezoneTests" success="True" time="0.010" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+CreateCustomTimezoneTests.AdjustmentRulesOverlap" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+CreateCustomTimezoneTests.IdIsEmptyString" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+CreateCustomTimezoneTests.IdIsNullException" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+CreateCustomTimezoneTests.MultiplesRulesForDate" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+CreateCustomTimezoneTests.NullRule" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+CreateCustomTimezoneTests.OffsetIsNotMinutes" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+CreateCustomTimezoneTests.OffsetOutOfRange" executed="True" success="True" time="0.010" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+CreateCustomTimezoneTests.OffsetTooBig" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+CreateCustomTimezoneTests.OffsetTooSmall" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+CreateCustomTimezoneTests.RulesNotOrdered" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+CreateCustomTimezoneTests.SupportsDaylightSavingTime_EmptyAdjustmentRule" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+CreateCustomTimezoneTests.SupportsDaylightSavingTime_EmptyAdjustmentRule_DisableDaylightSavingTime" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+CreateCustomTimezoneTests.SupportsDaylightSavingTime_NonEmptyAdjustmentRule" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+CreateCustomTimezoneTests.SupportsDaylightSavingTime_NonEmptyAdjustmentRule_DisableDaylightSavingTime" executed="True" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfoTest+FindSystemTimeZoneByIdTests" success="True" time="0.020" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+FindSystemTimeZoneByIdTests.BrusselsSupportsDST" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+FindSystemTimeZoneByIdTests.FindBrusselsTZ" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+FindSystemTimeZoneByIdTests.FindSystemTimeZoneById_Local_Roundtrip" executed="True" success="True" time="0.000" asserts="1" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+FindSystemTimeZoneByIdTests.MelbourneSupportsDST" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+FindSystemTimeZoneByIdTests.NoDSTInKinshasa" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+FindSystemTimeZoneByIdTests.NonSystemTimezone" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+FindSystemTimeZoneByIdTests.NullId" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+FindSystemTimeZoneByIdTests.OffsetIsCorrectInBrussels" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+FindSystemTimeZoneByIdTests.OffsetIsCorrectInKinshasa" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+FindSystemTimeZoneByIdTests.RomeAndVaticanSharesTime" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+FindSystemTimeZoneByIdTests.Test326" executed="True" success="True" time="0.010" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfoTest+GetAmbiguousTimeOffsetsTests" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+GetAmbiguousTimeOffsetsTests.AmbiguousOffsets" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+GetAmbiguousTimeOffsetsTests.DateIsNotAmbiguous" executed="True" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfoTest+GetSystemTimeZonesTests" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+GetSystemTimeZonesTests.ContainsBrussels" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+GetSystemTimeZonesTests.NotEmpty" executed="True" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfoTest+HasSameRulesTests" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+HasSameRulesTests.NullAdjustments" executed="True" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfoTest+IsAmbiguousTimeTests" success="True" time="0.010" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+IsAmbiguousTimeTests.AmbiguousDates" executed="True" success="True" time="0.010" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+IsAmbiguousTimeTests.AmbiguousUTCDates" executed="True" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfoTest+IsDaylightSavingTimeTests" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+IsDaylightSavingTimeTests.DSTInLondon" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+IsDaylightSavingTimeTests.DSTTransisions" executed="True" success="True" time="0.000" asserts="0" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+IsDaylightSavingTimeTests.DSTTransisionsUTC" executed="True" success="True" time="0.000" asserts="4" />
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+IsDaylightSavingTimeTests.NoDSTInUTC" executed="True" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfoTest+IsInvalidTimeTests" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+IsInvalidTimeTests.InvalidDates" executed="True" success="True" time="0.000" asserts="4" />
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfoTest+PropertiesTests" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+PropertiesTests.GetLocal" executed="True" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite name="TimeZoneInfoTest+SerializationTests" success="True" time="0.010" asserts="0">
+                <results>
+                  <test-case name="MonoTests.System.TimeZoneInfoTest+SerializationTests.Serialization_Deserialization" executed="True" success="True" time="0.010" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite name="Xml" success="True" time="1.570" asserts="0">
+                <results>
+                  <test-suite name="ExtensionsTest" success="True" time="0.230" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.DocumentWithProcessingInstruction" executed="True" success="True" time="0.040" asserts="11" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.DocumentWithXmlDeclaration" executed="True" success="True" time="0.010" asserts="9" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.EvaluateNodeSetAsEnumerable" executed="True" success="True" time="0.050" asserts="0" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.EvaluateNodeSetAsEnumerableOfObject" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.GetNamespaceConsistentTree" executed="True" success="True" time="0.010" asserts="2" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.IsDescendant" executed="True" success="True" time="0.010" asserts="12" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.LiterallySplitText" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.MoveToNamespaces" executed="True" success="True" time="0.000" asserts="3" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.OuterXml" executed="True" success="True" time="0.040" asserts="1" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.ReadSubtreeLookupNamespace" executed="True" success="True" time="0.040" asserts="1" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.RemoveDoesSnapshotCopy" executed="True" success="True" time="0.010" asserts="0" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.RemoveDoesSnapshotCopy2" executed="True" success="True" time="0.010" asserts="1" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.SelectChildren" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.XmlElementWithAttributes" executed="True" success="True" time="0.000" asserts="74" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.XmlRootElementOnly" executed="True" success="True" time="0.000" asserts="32" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.XmlSimpleElementContent" executed="True" success="True" time="0.000" asserts="51" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.XmlSimpleTextContent" executed="True" success="True" time="0.000" asserts="61" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest.XmlTwoElementsContent" executed="True" success="True" time="0.010" asserts="63" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="ExtensionsTest2" success="True" time="0.300" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.AttributeNavigation" executed="True" success="True" time="0.000" asserts="10" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.Bug456103" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.CreateNavigator" executed="True" success="True" time="0.000" asserts="1" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.DocumentWithProcessingInstruction" executed="True" success="True" time="0.000" asserts="4" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.DocumentWithXmlDeclaration" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.ElementAndRootValues" executed="True" success="True" time="0.010" asserts="2" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.InnerXmlAttribute" executed="True" success="True" time="0.020" asserts="1" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.InnerXmlOnRoot" executed="True" success="True" time="0.010" asserts="1" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.InnerXmlText" executed="True" success="True" time="0.000" asserts="4" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.InnerXmlTextEscape" executed="True" success="True" time="0.010" asserts="4" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.MoveToFollowingNodeTypeAll" executed="True" success="True" time="0.000" asserts="5" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.Navigation" executed="True" success="True" time="0.000" asserts="25" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.PropertiesOnDocument" executed="True" success="True" time="0.000" asserts="8" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.PropertiesOnElement" executed="True" success="True" time="0.010" asserts="8" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.SelectChildrenEmpty" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.SignificantWhitespaceConstruction" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.TextMatchesWhitespace" executed="True" success="True" time="0.010" asserts="2" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.ValueAs" executed="True" success="True" time="0.080" asserts="2" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.ValueAsBoolean" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.ValueAsBooleanFail" executed="True" success="True" time="0.010" asserts="0" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.ValueAsDateTime" executed="True" success="True" time="0.010" asserts="2" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.ValueAsDateTimeFail" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.ValueAsDouble" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.ValueAsDoubleFail" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.ValueAsInt" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.ValueAsIntFail" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.ValueAsLong" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.ValueAsLongFail" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.VariableReference" executed="True" success="True" time="0.030" asserts="1" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.WriterAttributePrefix" executed="True" success="True" time="0.030" asserts="3" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.XPathDocumentFromSubtreeNodes" executed="True" success="True" time="0.010" asserts="1" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest2.XPathDocumentMoveToId" executed="True" success="True" time="0.050" asserts="0" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="ExtensionsTest3" success="True" time="0.030" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest3.CoreFunctionConcat" executed="True" success="True" time="0.000" asserts="4" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest3.CoreFunctionContains" executed="True" success="True" time="0.000" asserts="2" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest3.CoreFunctionLocalName" executed="True" success="True" time="0.010" asserts="4" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest3.CoreFunctionNamespaceURI" executed="True" success="True" time="0.000" asserts="3" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest3.CoreFunctionNodeSetCount" executed="True" success="True" time="0.000" asserts="5" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest3.CoreFunctionNodeSetLast" executed="True" success="True" time="0.010" asserts="5" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest3.CoreFunctionNodeSetPosition" executed="True" success="True" time="0.010" asserts="7" />
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest3.CoreFunctionStartsWith" executed="True" success="True" time="0.000" asserts="2" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="ExtensionsTest4" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-case name="MonoTests.System.Xml.ExtensionsTest4.Bug654433" executed="True" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="Linq" success="True" time="0.630" asserts="0">
+                    <results>
+                      <test-suite name="ExtensionsTest" success="True" time="0.010" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.ExtensionsTest.InDocumentOrder" executed="True" success="True" time="0.010" asserts="4" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="MyQueryTest" success="True" time="0.010" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.MyQueryTest.Test1" executed="True" success="True" time="0.010" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="XAttributeTest" success="True" time="0.200" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.Annotations_GetSubclass" executed="True" success="True" time="0.010" asserts="3" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.Annotations_SameTypeTwice" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.CastBooleans" executed="True" success="True" time="0.010" asserts="26" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.CastDateTimeOffsets" executed="True" success="True" time="0.020" asserts="39" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.CastDateTimes" executed="True" success="True" time="0.010" asserts="40" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.CastEmptiesOrBlanks" executed="True" success="True" time="0.020" asserts="30" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.CastExtremes" executed="True" success="True" time="0.010" asserts="62" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.CastGuids" executed="True" success="True" time="0.010" asserts="30" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.CastNulls" executed="True" success="True" time="0.000" asserts="25" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.CastNumbers" executed="True" success="True" time="0.080" asserts="391" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.CastSpaces" executed="True" success="True" time="0.010" asserts="31" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.CastTimeSpans" executed="True" success="True" time="0.010" asserts="36" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.Constructor_NullParameters" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.DateTimeAttribute" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.Document" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.IsNamespaceDeclaration" executed="True" success="True" time="0.000" asserts="15" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.SetValue" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.SetValue_ChangeTriggers" executed="True" success="True" time="0.010" asserts="10" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.SetValue_Null" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.SetValue_SameValue_ChangeTrigger" executed="True" success="True" time="0.000" asserts="4" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.SetValue2_ChangeTriggers" executed="True" success="True" time="0.000" asserts="10" />
+                          <test-case name="MonoTests.System.Xml.Linq.XAttributeTest.ToString" executed="True" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="XDocumentTest" success="True" time="0.050" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.XDocumentTest.AddTextToDocument" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XDocumentTest.AddXAttributeToDocument" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XDocumentTest.AddXmlDeclarationEvenForDecllessDoc" executed="True" success="True" time="0.030" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XDocumentTest.Load1" executed="True" success="True" time="0.000" asserts="9" />
+                          <test-case name="MonoTests.System.Xml.Linq.XDocumentTest.Load2" executed="True" success="True" time="0.010" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XDocumentTest.LoadInvalid" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XDocumentTest.LoadWhitespaces" executed="True" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="XElementTest" success="True" time="0.240" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddAfterSelf" executed="True" success="True" time="0.000" asserts="4" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddAfterSelfAttribute" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddAfterSelfCollection" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddAfterSelfJoinsStringAfterText" executed="True" success="True" time="0.000" asserts="5" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddAfterSelfList" executed="True" success="True" time="0.000" asserts="6" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddAfterSelfXDocument" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddAttribute_ToRootNode_ChangeTriggers" executed="True" success="True" time="0.000" asserts="4" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddAttributeFromDifferentTree" executed="True" success="True" time="0.010" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddBefore_ChildNode_ChangeTriggers" executed="True" success="True" time="0.000" asserts="6" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddBeforeSelf" executed="True" success="True" time="0.000" asserts="4" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddBeforeSelfList" executed="True" success="True" time="0.000" asserts="6" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddBeforeSelfList2" executed="True" success="True" time="0.000" asserts="4" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddDocumentTypeToElement" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddDuplicateAttribute" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddElement_ToChildNode_ChangeTriggers" executed="True" success="True" time="0.000" asserts="32" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddElement_ToRootNode_ChangeTriggers" executed="True" success="True" time="0.010" asserts="12" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddJoinsStringAfterText" executed="True" success="True" time="0.000" asserts="5" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddSameInstance" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.AddSameInstance2" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.Bug3137" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.CastBlanks" executed="True" success="True" time="0.030" asserts="66" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.CastBooleans" executed="True" success="True" time="0.000" asserts="31" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.CastDateTimeOffsets" executed="True" success="True" time="0.010" asserts="33" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.CastDateTimes" executed="True" success="True" time="0.000" asserts="42" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.CastEmpties" executed="True" success="True" time="0.010" asserts="33" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.CastExtremes" executed="True" success="True" time="0.010" asserts="62" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.CastGuids" executed="True" success="True" time="0.000" asserts="30" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.CastNulls" executed="True" success="True" time="0.010" asserts="25" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.CastNumbers" executed="True" success="True" time="0.080" asserts="393" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.CastSpaces" executed="True" success="True" time="0.020" asserts="65" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.CastTimeSpans" executed="True" success="True" time="0.010" asserts="36" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.Constructor_NullParameters" executed="True" success="True" time="0.000" asserts="5" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.DecimalFormatting" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.DoUseEmptyNamespacePrefixWhenApplicable" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.GetDefaultNamespace" executed="True" success="True" time="0.000" asserts="7" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.GetPrefixNamespace" executed="True" success="True" time="0.000" asserts="12" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.Load1" executed="True" success="True" time="0.000" asserts="10" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.Load2" executed="True" success="True" time="0.000" asserts="6" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.LoadFromXmlTextReader" executed="True" success="True" time="0.010" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.LoadInvalid" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.LoadWithXmldecl" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.PrecedingWhitespaces" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.PrecedingWhitespaces2" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.RemoveAll_FromRootNode_ChangeTriggers" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.RemoveAttributes_FromRootNode_ChangeTriggers" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.RemoveElement_FromChildNode_ChangeTriggers" executed="True" success="True" time="0.010" asserts="32" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.RemoveElement_FromRootNode_ChangeTriggers" executed="True" success="True" time="0.000" asserts="12" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.RemoveNodes_FromRootNode_ChangeTriggers" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.Rename" executed="True" success="True" time="0.000" asserts="10" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.ReplaceAll" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.ReplaceAllList" executed="True" success="True" time="0.000" asserts="5" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.ReplaceAttributes" executed="True" success="True" time="0.000" asserts="4" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.ReplaceAttributesIteratesContentsFirstThenRemove" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.ReplaceCreatesSnapshotBeforeRemoval" executed="True" success="True" time="0.010" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.ReplaceNodes" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.ReplaceWith" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.SavePreservePrefixes" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.SetAttribute" executed="True" success="True" time="0.010" asserts="26" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.SetAttributeValue_ToRootNode_ChangeTriggers" executed="True" success="True" time="0.000" asserts="8" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.SetElementValue" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.SetElementValueNullOnNonExistingElement" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.SetValue_ChangeTriggers" executed="True" success="True" time="0.000" asserts="11" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.SetValueNull" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.SetValueXAttribute" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.SetValueXDocumnent" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.UseGetPrefixOfNamespaceForToString" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XElementTest.Value" executed="True" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="XNamespaceTest" success="True" time="0.010" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.XNamespaceTest.Addition" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNamespaceTest.Equals" executed="True" success="True" time="0.000" asserts="4" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNamespaceTest.Get1" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNamespaceTest.Get2" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNamespaceTest.GetBrokenFormat" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNamespaceTest.GetBrokenFormat2" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNamespaceTest.GetBrokenFormat3" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNamespaceTest.GetBrokenFormat4" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNamespaceTest.GetEmpty" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNamespaceTest.GetName" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNamespaceTest.GetNull" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNamespaceTest.Predefined" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNamespaceTest.TestXmlNoNs" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNamespaceTest.TestXmlWithNs" executed="True" success="True" time="0.010" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="XNameTest" success="True" time="0.010" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.XNameTest.Get1" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNameTest.GetBrokenFormat" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNameTest.GetBrokenFormat10" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNameTest.GetBrokenFormat2" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNameTest.GetBrokenFormat3" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNameTest.GetBrokenFormat4" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNameTest.GetBrokenFormat5" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNameTest.GetBrokenFormat6" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNameTest.GetBrokenFormat7" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNameTest.GetBrokenFormat8" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNameTest.GetBrokenFormat9" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNameTest.GetEmpty" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNameTest.GetNull" executed="True" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="XNodeDocumentOrderComparerTest" success="True" time="0.000" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeDocumentOrderComparerTest.Compare1" executed="True" success="True" time="0.000" asserts="6" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeDocumentOrderComparerTest.Compare2" executed="True" success="True" time="0.000" asserts="4" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeDocumentOrderComparerTest.CompareNulls" executed="True" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="XNodeEqualityComparerTest" success="True" time="0.010" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeEqualityComparerTest.Compare1" executed="True" success="True" time="0.010" asserts="7" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeEqualityComparerTest.Compare2" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeEqualityComparerTest.CompareNulls" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeEqualityComparerTest.GetHashCodeNull" executed="True" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="XNodeNavigatorTest" success="True" time="0.010" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeNavigatorTest.Bug4739" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeNavigatorTest.Bug594877" executed="True" success="True" time="0.010" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeNavigatorTest.MoveToId" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeNavigatorTest.MoveToNext" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeNavigatorTest.MoveToRoot_Bug4690" executed="True" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="XNodeReaderTest" success="True" time="0.030" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeReaderTest.CreateReader1" executed="True" success="True" time="0.020" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeReaderTest.CreateReader2" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeReaderTest.CreateReader3" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeReaderTest.CreateReaderFromElement" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeReaderTest.CreateReaderFromElement2" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeReaderTest.GetAttribute" executed="True" success="True" time="0.000" asserts="8" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeReaderTest.IsEmptyElement" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeReaderTest.LookupNamespace" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeReaderTest.NamePropsOnEOF" executed="True" success="True" time="0.000" asserts="4" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeReaderTest.NamespaceURIForXmlns" executed="True" success="True" time="0.010" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeReaderTest.NodeTypeAtInitialStateIsNone" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeReaderTest.PrefixOnEmptyNS" executed="True" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="XNodeWriterTest" success="True" time="0.010" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeWriterTest.CreateWriter1" executed="True" success="True" time="0.010" asserts="20" />
+                          <test-case name="MonoTests.System.Xml.Linq.XNodeWriterTest.WriteEmptyElements" executed="True" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="XObjectTest" success="True" time="0.000" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.XObjectTest.Annotations" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XObjectTest.LineInfo" executed="True" success="True" time="0.000" asserts="6" />
+                          <test-case name="MonoTests.System.Xml.Linq.XObjectTest.ReadFromElement" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XObjectTest.ReadFromInitial" executed="True" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="XProcessingInstructionTest" success="True" time="0.010" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.XProcessingInstructionTest.Data" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XProcessingInstructionTest.DataNull" executed="True" success="True" time="0.010" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XProcessingInstructionTest.NameNull" executed="True" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="XStreamingElementTest" success="True" time="0.020" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.XStreamingElementTest.ToString" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XStreamingElementTest.ToStringAttributeAfterText" executed="True" success="True" time="0.000" asserts="0" />
+                          <test-case name="MonoTests.System.Xml.Linq.XStreamingElementTest.WriteXStreamingElementChildren" executed="True" success="True" time="0.020" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite name="XTextTest" success="True" time="0.000" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Linq.XTextTest.AddXTextElementCloning" executed="True" success="True" time="0.000" asserts="4" />
+                          <test-case name="MonoTests.System.Xml.Linq.XTextTest.NodeType" executed="True" success="True" time="0.000" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Linq.XTextTest.ToString" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Linq.XTextTest.WriteWhitespaceToXml" executed="True" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite name="Schema" success="True" time="0.370" asserts="0">
+                    <results>
+                      <test-suite name="ExtensionsTest" success="True" time="0.370" asserts="0">
+                        <results>
+                          <test-case name="MonoTests.System.Xml.Schema.ExtensionsTest.XAttributeSuccessValidate" executed="True" success="True" time="0.360" asserts="2" />
+                          <test-case name="MonoTests.System.Xml.Schema.ExtensionsTest.XDocumentAddSchemaInfoValidate" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Xml.Schema.ExtensionsTest.XDocumentFailValidate" executed="True" success="True" time="0.010" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Schema.ExtensionsTest.XDocumentNoSchemaInfoValidate" executed="True" success="True" time="0.000" asserts="3" />
+                          <test-case name="MonoTests.System.Xml.Schema.ExtensionsTest.XDocumentSuccessValidate" executed="True" success="True" time="0.000" asserts="1" />
+                          <test-case name="MonoTests.System.Xml.Schema.ExtensionsTest.XDocumentThrowExceptionValidate" executed="True" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

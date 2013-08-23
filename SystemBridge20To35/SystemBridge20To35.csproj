@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{66621034-90CC-4D1A-B49E-73A13E3B22EF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SystemBridge20To35</RootNamespace>
+    <AssemblyName>SystemBridge20To35</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;LINQBRIDGE_LIB NET_2_0 NET_3_5</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\bin\Debug\SystemBridge20To35.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE;LINQBRIDGE_LIB NET_2_0 NET_3_5</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\bin\Release\SystemBridge20To35.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InternalHelpers\Internal.cs" />
+    <Compile Include="InternalHelpers\XmlConvert.cs" />
+    <Compile Include="InternalHelpers\XmlDateTimeSerializationMode.cs" />
+    <Compile Include="System.Collections.Generic\HashSet.cs" />
+    <Compile Include="System.Collections\HashPrimeNumbers.cs" />
+    <Compile Include="System.Threading\corlib\AtomicBoolean.cs" />
+    <Compile Include="System.Threading\LockRecursionException.cs" />
+    <Compile Include="System.Threading\LockRecursionPolicy.cs" />
+    <Compile Include="System.Threading\ReaderWriterLockSlim.cs" />
+    <Compile Include="System.Threading\ReaderWriterLockSlimExtensions.cs" />
+    <Compile Include="System.Threading\ThreadLockState.cs" />
+    <Compile Include="System\Action.cs" />
+    <Compile Include="System.Linq\Enumerable.cs" />
+    <Compile Include="System.Linq\Enumerable.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Enumerable.g.tt</DependentUpon>
+    </Compile>
+    <Compile Include="System.Runtime.CompilerServices\ExtensionAttribute.cs" />
+    <Compile Include="System\Func.cs" />
+    <Compile Include="System.Linq\IGrouping.cs" />
+    <Compile Include="System.Linq\ILookup.cs" />
+    <Compile Include="InternalHelpers\ConversionHelper.cs" />
+    <Compile Include="InternalHelpers\IConversion.cs" />
+    <Compile Include="InternalHelpers\MonoConversion.cs" />
+    <Compile Include="InternalHelpers\NetConversion.cs" />
+    <Compile Include="InternalHelpers\XmlChar.cs" />
+    <Compile Include="System.Linq\IOrderedEnumerable.cs" />
+    <Compile Include="System.Linq\Lookup.cs" />
+    <Compile Include="System.Linq\OrderedEnumerable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System.Linq\Public.cs" />
+    <Compile Include="System.Xml.Linq\Extensions.cs" />
+    <Compile Include="System.Xml.Linq\LoadOptions.cs" />
+    <Compile Include="System.Xml.Linq\SaveOptions.cs" />
+    <Compile Include="System.Xml.Linq\XAttribute.cs" />
+    <Compile Include="System.Xml.Linq\XCData.cs" />
+    <Compile Include="System.Xml.Linq\XComment.cs" />
+    <Compile Include="System.Xml.Linq\XContainer.cs" />
+    <Compile Include="System.Xml.Linq\XDeclaration.cs" />
+    <Compile Include="System.Xml.Linq\XDocument.cs" />
+    <Compile Include="System.Xml.Linq\XDocumentType.cs" />
+    <Compile Include="System.Xml.Linq\XElement.cs" />
+    <Compile Include="System.Xml.Linq\XIterators.cs" />
+    <Compile Include="System.Xml.Linq\XName.cs" />
+    <Compile Include="System.Xml.Linq\XNamespace.cs" />
+    <Compile Include="System.Xml.Linq\XNode.cs" />
+    <Compile Include="System.Xml.Linq\XNodeDocumentOrderComparer.cs" />
+    <Compile Include="System.Xml.Linq\XNodeEqualityComparer.cs" />
+    <Compile Include="System.Xml.Linq\XNodeNavigator.cs" />
+    <Compile Include="System.Xml.Linq\XNodeReader.cs" />
+    <Compile Include="System.Xml.Linq\XNodeWriter.cs" />
+    <Compile Include="System.Xml.Linq\XObject.cs" />
+    <Compile Include="System.Xml.Linq\XObjectChange.cs" />
+    <Compile Include="System.Xml.Linq\XObjectChangeEventArgs.cs" />
+    <Compile Include="System.Xml.Linq\XProcessingInstruction.cs" />
+    <Compile Include="System.Xml.Linq\XStreamingElement.cs" />
+    <Compile Include="System.Xml.Linq\XText.cs" />
+    <Compile Include="System.Xml.Linq\XUtil.cs" />
+    <Compile Include="System.Xml.Schema\Extensions.cs" />
+    <Compile Include="System.Xml.XPath\Extensions.cs" />
+    <Compile Include="System\Internal\Attributes.cs" />
+    <Compile Include="System\InvalidTimeZoneException.cs" />
+    <Compile Include="System\TimeZoneInfo.AdjustmentRule.cs" />
+    <Compile Include="System\TimeZoneInfo.cs" />
+    <Compile Include="System\TimeZoneInfo.TransitionTime.cs" />
+    <Compile Include="System\TimeZoneNotFoundException.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="System.Linq\Enumerable.g.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Enumerable.g.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

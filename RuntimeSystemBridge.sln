@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemBridge20To35", "SystemBridge20To35\SystemBridge20To35.csproj", "{66621034-90CC-4D1A-B49E-73A13E3B22EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemBridge20To35.Tests", "SystemBridge20To35.Tests\SystemBridge20To35.Tests.csproj", "{8CFA0EA5-31B9-43D0-A2D9-A002C2C25121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemBridge20To35.Tests-OnNET35Runtime", "SystemBridge20To35.Tests-OnNET35Runtime\SystemBridge20To35.Tests-OnNET35Runtime.csproj", "{FF0FB762-A5DB-4AF2-A917-BD185E97F90B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemBridge20To35WindowsBase", "SystemBridge20To35WindowsBase\SystemBridge20To35WindowsBase.csproj", "{A24EB445-4DC1-4695-A308-EE9253CF00F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66621034-90CC-4D1A-B49E-73A13E3B22EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66621034-90CC-4D1A-B49E-73A13E3B22EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66621034-90CC-4D1A-B49E-73A13E3B22EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66621034-90CC-4D1A-B49E-73A13E3B22EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFA0EA5-31B9-43D0-A2D9-A002C2C25121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFA0EA5-31B9-43D0-A2D9-A002C2C25121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFA0EA5-31B9-43D0-A2D9-A002C2C25121}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFA0EA5-31B9-43D0-A2D9-A002C2C25121}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FF0FB762-A5DB-4AF2-A917-BD185E97F90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0FB762-A5DB-4AF2-A917-BD185E97F90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0FB762-A5DB-4AF2-A917-BD185E97F90B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0FB762-A5DB-4AF2-A917-BD185E97F90B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A24EB445-4DC1-4695-A308-EE9253CF00F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24EB445-4DC1-4695-A308-EE9253CF00F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24EB445-4DC1-4695-A308-EE9253CF00F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24EB445-4DC1-4695-A308-EE9253CF00F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

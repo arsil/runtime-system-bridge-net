@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project default="test">
+	<property name="is-dotnet" value="false" />
+	<if test="${framework::get-family(framework::get-target-framework()) == 'net'}">
+		<property name="is-dotnet" value="true" />
+	</if>
+
+	<target name="test">
+		<property name="binariesDir" value="test/LINQ.Tests/bin " />
+		<mkdir dir="${binariesDir}/reports" />
+		<property name="test-assembly" value="Linq.Tests.dll" />
+		<call target="test-assembly" />
+	</target>
+
+	<target name="test-assembly">
+		<if test="${property::exists('ncover.exe')}">
+			<exec program="${ncover.exe}" workingdir="${binariesDir}"
+				commandline="&quot;${nunit-console.exe}&quot; ${test-assembly} -xml:${path::combine('reports',test-assembly)}-nunit-results.xml -nologo //x ${path::combine('reports',test-assembly)}-coverage-results.xml"/>
+		</if>
+		<if test="${not property::exists('ncover.exe')}">
+			<if test="${not is-dotnet}">
+				<property
+					name="nunit.exe"
+					value="${path::combine(framework::get-assembly-directory(framework::get-target-framework()),'nunit-console.exe')}"/>
+			</if>
+			<if test="${is-dotnet}">
+				<if test="${environment::variable-exists('NUNIT_PATH')}">
+					<property name="nunit.exe" value="${environment::get-variable('NUNIT_PATH')}\bin\nunit-console.exe"/>
+				</if>
+				<if test="${not environment::variable-exists('NUNIT_PATH')}">
+					<property name="nunit.exe" value="C:\Program Files\NUnit\bin\nunit-console.exe" />
+				</if>
+			</if>
+			<echo message="${test-assembly}" />
+			<exec program="${nunit.exe}" workingdir="${binariesDir}" managed="true">
+				<arg value="-nologo" />
+				<arg value="-noshadow" />
+				<arg value="${test-assembly}" />
+				<arg value="-xml=${path::combine('reports',test-assembly)}-coverage-results.xml"/>
+			</exec>
+		</if>
+	</target>
+</project>

@@ -1,0 +1,5 @@
+Microsoft runtime:
+"c:\Program Files (x86)\NUnit 2.5.10\bin\nunit-console-x86.exe" SystemBridge20To35.Tests.dll /exclude:NotWorking,NotDotNet
+
+mono runtime:
+mono "c:\Program Files (x86)\NUnit 2.5.10\bin\nunit-console-x86.exe" SystemBridge20To35.Tests.dll /exclude:NotWorking

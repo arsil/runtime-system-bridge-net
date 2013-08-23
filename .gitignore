@@ -1,0 +1,9 @@
+bin
+bin_*
+obj
+*.resharper.user
+*.cache
+.#*
+*.ReSharper.user
+*.ReSharper
+*.user
