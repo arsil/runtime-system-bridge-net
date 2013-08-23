@@ -8,3 +8,4 @@ obj
 *.ReSharper.user
 *.ReSharper
 *.user
+*.suo

@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("SystemBridge20To35WindowsBase")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("FORCOM Sp. z o.o.")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("SystemBridge20To35WindowsBase")]
-[assembly: AssemblyCopyright("Copyright © FORCOM Sp. z o.o. 2013")]
+[assembly: AssemblyCopyright("Copyright (c) 2013, Arek Waliszewski.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.*")]
+//[assembly: AssemblyFileVersion("1.0.*")]

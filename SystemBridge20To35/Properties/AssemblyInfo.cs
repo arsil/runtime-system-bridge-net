@@ -30,11 +30,11 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Security;
 
-[assembly: AssemblyTitle("LINQBridge")]
+[assembly: AssemblyTitle("SystemBridge20To35")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LINQBridge")]
-[assembly: AssemblyCopyright("Copyright (c) 2007-9, Atif Aziz, Joseph Albahari. All rights reserved.")]
+[assembly: AssemblyProduct("SystemBridge20To35")]
+[assembly: AssemblyCopyright("Copyright (c) 2013, Arek Waliszewski.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -50,5 +50,5 @@ using System.Security;
 
 [assembly: Guid("1d8ca19d-f7ef-47f2-8144-4099aab2b2b7")]
 
-[assembly: AssemblyVersion("1.2.0.0")]
-[assembly: AssemblyFileVersion("1.2.13216.2214")]
+[assembly: AssemblyVersion("1.0.*")]
+//[assembly: AssemblyFileVersion("1.0.*")]
