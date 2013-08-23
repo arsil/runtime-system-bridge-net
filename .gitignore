@@ -1,5 +1,6 @@
 bin
 bin_*
+bin-*
 obj
 *.resharper.user
 *.cache
