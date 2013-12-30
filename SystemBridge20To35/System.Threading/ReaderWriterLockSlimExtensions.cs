@@ -40,12 +40,12 @@ namespace System.Threading
 #if !NET_4_0
 		internal static bool Wait (this ManualResetEvent self, int timeout)
 		{
-			return self.WaitOne (timeout);
+			return self.WaitOne (timeout, false);
 		}
 
 		internal static bool IsSet (this ManualResetEvent self)
 		{
-			return self.WaitOne (0);
+			return self.WaitOne (0, false);
 		}
 #else
 		internal static bool IsSet (this ManualResetEventSlim self)
