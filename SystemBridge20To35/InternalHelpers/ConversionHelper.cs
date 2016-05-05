@@ -4,7 +4,7 @@ namespace LinqBridge.InternalHelpers
 {
 	static class ConversionHelper
 	{
-		public static DateTimeOffset? ToDateTimeOffset(string value)
+		public static DateTimeOffset ToDateTimeOffset(string value)
 		{
 			return impl.ToDateTimeOffset(value);
 		}

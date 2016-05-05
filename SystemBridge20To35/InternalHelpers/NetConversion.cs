@@ -5,7 +5,7 @@ namespace LinqBridge.InternalHelpers
 {
 	class NetConversion : IConversion
 	{
-		public DateTimeOffset? ToDateTimeOffset(string value)
+		public DateTimeOffset ToDateTimeOffset(string value)
 		{
 			return XmlConvert.ToDateTimeOffset(value);
 		}

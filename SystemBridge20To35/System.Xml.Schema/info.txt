@@ -1,2 +1,0 @@
-from:
-mono\mcs\class\System.Xml.Linq\System.Xml.Schema 

@@ -26,8 +26,10 @@
 
 using System;
 using System.IO;
+using System.Text;
 using System.Xml;
 using System.Xml.Linq;
+using System.Xml.Serialization;
 
 using NUnit.Framework;
 
@@ -96,5 +98,25 @@ namespace MonoTests.System.Xml.Linq
 			Assert.IsNull (el.Parent.NextNode, "#10");
 			Assert.IsNull (el.Parent.Parent.NextNode, "#11");
 		}
+
+		[XmlRoot ("MyRoot", Namespace = "urn:mynamespace")]
+		public class MyData
+		{
+			[XmlElement]
+			public MyElementBase[] Elements;
+		}
+
+		[XmlInclude (typeof(MyElement1))]
+		public abstract class MyElementBase
+		{
+		}
+
+		[XmlType ("MyElement1", Namespace = "urn:mynamespace")]
+		public class MyElement1 : MyElementBase
+		{
+			[XmlAttribute]
+			public int V;
+		}
+
 	}
 }
