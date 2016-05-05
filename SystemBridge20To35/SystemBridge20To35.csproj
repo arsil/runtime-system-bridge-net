@@ -44,6 +44,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>..\bin\Debug\SystemBridge20To35.XML</DocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -63,9 +64,14 @@
     <Compile Include="InternalHelpers\XmlConvert.cs" />
     <Compile Include="InternalHelpers\XmlDateTimeSerializationMode.cs" />
     <Compile Include="ReferenceSources\Error.cs" />
+    <Compile Include="ReferenceSources\SR.cs" />
+    <Compile Include="ReferenceSources\SR.missing.cs" />
     <Compile Include="ReferenceSources\Strings.cs" />
+    <Compile Include="System.Collections.Generic\BitHelper.cs" />
+    <Compile Include="System.Collections.Generic\HashHelpers.cs" />
     <Compile Include="System.Collections.Generic\HashSet.cs" />
-    <Compile Include="System.Collections\HashPrimeNumbers.cs" />
+    <Compile Include="System.Collections.Generic\HashSetDebugView.cs" />
+    <Compile Include="System.Collections.Generic\HashSetEqualityComparer.cs" />
     <Compile Include="System.Linq.Expressions\BinaryExpression.cs" />
     <Compile Include="System.Linq.Expressions\ConditionalExpression.cs" />
     <Compile Include="System.Linq.Expressions\ConstantExpression.cs" />
