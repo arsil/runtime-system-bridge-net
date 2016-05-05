@@ -37,6 +37,7 @@
     <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="System.Linq\LookupTest.cs" />
     <Compile Include="System.Collections.Generic\HashSetTest.cs" />
     <Compile Include="System.Linq.Expressions\ExpressionTest.cs" />
     <Compile Include="System.Linq.Expressions\ExpressionTest_Add.cs" />
@@ -91,7 +92,10 @@
     <Compile Include="System.Linq.Expressions\ExpressionTest_TypeIs.cs" />
     <Compile Include="System.Linq.Expressions\ExpressionTest_UnaryPlus.cs" />
     <Compile Include="System.Linq.Expressions\ExpressionTest_Utils.cs" />
+    <Compile Include="System.Linq\EnumerableAsQueryableTest.cs" />
     <Compile Include="System.Linq\EnumerableFixture.cs" />
+    <Compile Include="System.Linq\EnumerableMoreTest.cs" />
+    <Compile Include="System.Linq\EnumerableTest.cs" />
     <Compile Include="System\TimeZoneInfo.AdjustmentRuleTest.cs" />
     <Compile Include="System\TimeZoneInfo.TransitionTimeTest.cs" />
     <Compile Include="System\TimeZoneInfoTest.cs" />

@@ -45,8 +45,20 @@
     <Compile Include="..\SystemBridge20To35.Tests\System.Collections.Generic\HashSetTest.cs">
       <Link>System.Collections.Generic\HashSetTest.cs</Link>
     </Compile>
+    <Compile Include="..\SystemBridge20To35.Tests\System.Linq\EnumerableAsQueryableTest.cs">
+      <Link>System.Linq\EnumerableAsQueryableTest.cs</Link>
+    </Compile>
     <Compile Include="..\SystemBridge20To35.Tests\System.Linq\EnumerableFixture.cs">
       <Link>System.Linq\EnumerableFixture.cs</Link>
+    </Compile>
+    <Compile Include="..\SystemBridge20To35.Tests\System.Linq\EnumerableMoreTest.cs">
+      <Link>System.Linq\EnumerableMoreTest.cs</Link>
+    </Compile>
+    <Compile Include="..\SystemBridge20To35.Tests\System.Linq\EnumerableTest.cs">
+      <Link>System.Linq\EnumerableTest.cs</Link>
+    </Compile>
+    <Compile Include="..\SystemBridge20To35.Tests\System.Linq\LookupTest.cs">
+      <Link>System.Linq\LookupTest.cs</Link>
     </Compile>
     <Compile Include="..\SystemBridge20To35.Tests\System.Linq\Reader.cs">
       <Link>System.Linq\Reader.cs</Link>

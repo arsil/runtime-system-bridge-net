@@ -62,6 +62,8 @@
     <Compile Include="InternalHelpers\Internal.cs" />
     <Compile Include="InternalHelpers\XmlConvert.cs" />
     <Compile Include="InternalHelpers\XmlDateTimeSerializationMode.cs" />
+    <Compile Include="ReferenceSources\Error.cs" />
+    <Compile Include="ReferenceSources\Strings.cs" />
     <Compile Include="System.Collections.Generic\HashSet.cs" />
     <Compile Include="System.Collections\HashPrimeNumbers.cs" />
     <Compile Include="System.Linq.Expressions\BinaryExpression.cs" />
@@ -93,15 +95,11 @@
     <Compile Include="System.Linq.Expressions\ParameterExpression.cs" />
     <Compile Include="System.Linq.Expressions\TypeBinaryExpression.cs" />
     <Compile Include="System.Linq.Expressions\UnaryExpression.cs" />
-    <Compile Include="System.Linq\Check.cs" />
-    <Compile Include="System.Linq\IOrderedQueryable.cs" />
-    <Compile Include="System.Linq\IOrderedQueryable_T.cs" />
+    <Compile Include="System.Linq\Enumerable.cs" />
+    <Compile Include="System.Linq\Expressions\ExpressionVisitor.cs" />
     <Compile Include="System.Linq\IQueryable.cs" />
-    <Compile Include="System.Linq\IQueryable_T.cs" />
-    <Compile Include="System.Linq\IQueryProvider.cs" />
-    <Compile Include="System.Linq\Queryable.cs" />
-    <Compile Include="System.Linq\QueryableEnumerable.cs" />
-    <Compile Include="System.Linq\QueryableTransformer.cs" />
+    <Compile Include="System.Linq\SequenceQuery.cs" />
+    <Compile Include="System.Linq\TypeHelper.cs" />
     <Compile Include="System.Runtime.CompilerServices\ExecutionScope.cs" />
     <Compile Include="System.Runtime.CompilerServices\IStrongBox.cs" />
     <Compile Include="System.Runtime.CompilerServices\StrongBox_T.cs" />
@@ -112,26 +110,14 @@
     <Compile Include="System.Threading\ReaderWriterLockSlimExtensions.cs" />
     <Compile Include="System.Threading\ThreadLockState.cs" />
     <Compile Include="System\Action.cs" />
-    <Compile Include="System.Linq\Enumerable.cs" />
-    <Compile Include="System.Linq\Enumerable.g.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Enumerable.g.tt</DependentUpon>
-    </Compile>
     <Compile Include="System.Runtime.CompilerServices\ExtensionAttribute.cs" />
     <Compile Include="System\Func.cs" />
-    <Compile Include="System.Linq\IGrouping.cs" />
-    <Compile Include="System.Linq\ILookup.cs" />
     <Compile Include="InternalHelpers\ConversionHelper.cs" />
     <Compile Include="InternalHelpers\IConversion.cs" />
     <Compile Include="InternalHelpers\MonoConversion.cs" />
     <Compile Include="InternalHelpers\NetConversion.cs" />
     <Compile Include="InternalHelpers\XmlChar.cs" />
-    <Compile Include="System.Linq\IOrderedEnumerable.cs" />
-    <Compile Include="System.Linq\Lookup.cs" />
-    <Compile Include="System.Linq\OrderedEnumerable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="System.Linq\Public.cs" />
     <Compile Include="System.Xml.Linq\Extensions.cs" />
     <Compile Include="System.Xml.Linq\LoadOptions.cs" />
     <Compile Include="System.Xml.Linq\SaveOptions.cs" />
@@ -174,10 +160,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="SystemBridge.snk" />
-    <None Include="System.Linq\Enumerable.g.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Enumerable.g.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
