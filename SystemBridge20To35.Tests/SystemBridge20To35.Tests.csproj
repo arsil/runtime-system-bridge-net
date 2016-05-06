@@ -96,7 +96,6 @@
     <Compile Include="System.Linq\EnumerableFixture.cs" />
     <Compile Include="System.Linq\EnumerableMoreTest.cs" />
     <Compile Include="System.Linq\EnumerableTest.cs" />
-    <Compile Include="System.Xml.Linq\XCommentTest.cs" />
     <Compile Include="System\TimeZoneInfo.AdjustmentRuleTest.cs" />
     <Compile Include="System\TimeZoneInfo.TransitionTimeTest.cs" />
     <Compile Include="System\TimeZoneInfoTest.cs" />
